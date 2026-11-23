@@ -303,7 +303,7 @@ xpkg.build.provider-github: do.build.images
 #
 # Retirement: delete this block and revert to plain UPTEST_VERSION the moment
 # upstream ships a release containing #52, #60 and #65.
-UPTEST_FORK_REPO := kaessert/uptest
+UPTEST_FORK_REPO := xp-provider-factory/uptest
 UPTEST_FORK_REF  := v2.3.0-fork.e21896e
 UPTEST_FORK_SHA256_linux-amd64  := 2f7618fceeda82bca2749042db6d578c0f1edf94515f4020be79c1969a17c2d9
 UPTEST_FORK_SHA256_linux-arm64  := 72a4bfa4514c82eb43ace0a55cec1d7466cb720f6967d9b2d2221bc8f66c66bf
